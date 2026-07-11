@@ -1,0 +1,18 @@
+# 의존성
+node_modules/
+
+# 런타임 크롤링 상태(실행 시 재생성됨)
+data/state.json
+data/*.tmp
+
+# 로그·환경
+*.log
+npm-debug.log*
+.env
+.env.local
+
+# OS/에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

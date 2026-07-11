@@ -1,0 +1,17 @@
+{
+  "name": "happycpu7",
+  "version": "1.0.0",
+  "description": "서울·수도권 4년제 대학 입시요강 정리 웹사이트",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "crawl": "node src/runCrawl.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3"
+  }
+}
